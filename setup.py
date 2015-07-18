@@ -3,13 +3,13 @@
 from distutils.core import setup
 
 
-setup(name='python-bittrex',
+setup(name='python-c-cex',
       version='0.1.1',
-      packages=['bittrex'],
-      modules=['bittrex'],
-      description='Python bindings for bittrex API.',
-      author='Eric Somdahl',
-      author_email='eric@corsairconsulting.com',
+      packages=['ccex'],
+      modules=['ccex'],
+      description='Python bindings for C-CEX API.',
+      author='Ben Stadium',
+      author_email='mp3it.eu@gmail.com',
       classifiers=[
           'Programming Language :: Python',
           'Programming Language :: Python :: 2.7',
